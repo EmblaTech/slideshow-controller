@@ -15,13 +15,7 @@
 var activeApplication = function () {
     var app;
     try {
-        var locator = WScript.CreateObject("WbemScripting.SWbemLocator");
-        var service = locator.ConnectServer(".", "root\\cimv2");
-        var procs = service.ExecQuery("SELECT * FROM Win32_Process WHERE Name = 'POWERPNT.EXE'");
-        if (procs.Count > 0)
-            app = WScript.CreateObject("PowerPoint.Application");
-        else
-            app = null;
+        app = WScript.CreateObject("PowerPoint.Application");
     }
     catch (e) {
         app = null;

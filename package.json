@@ -1,0 +1,43 @@
+{
+    "name": "slideshow-controller",
+    "homepage": "https://github.com/EmblaTech/slideshow-controller",
+    "description": "Observe and Control for Slideshow Applications",
+    "version": "1.0.0",
+    "license": "MPL",
+    "author": {
+        "name": "Chamath Sandaru",
+        "email": "sandaruchamath@gmail.com"
+    },
+    "keywords": [
+        "slide",
+        "slideshow",
+        "presentation",
+        "powerpoint",
+        "office365",
+        "applescript",
+        "wsh",
+        "jscript"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/EmblaTech/slideshow-controller"
+    },
+    "main": "./slideshow-api.js",
+    "bin": {
+        "slideshow": "./slideshow-cli.js"
+    },
+    "devDependencies": {
+        "grunt": "1.0.4",
+        "grunt-cli": "1.3.2",
+        "grunt-contrib-jshint": "2.1.0",
+        "grunt-contrib-clean": "2.0.0",
+        "grunt-eslint": "21.1.0"
+    },
+    "dependencies": {
+        "bluebird": "3.5.5",
+        "event-stream": "4.0.1"
+    },
+    "engines": {
+        "node": ">=8.0.0"
+    }
+}

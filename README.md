@@ -3,7 +3,7 @@ Slideshow Controller
 
 Observe and Control Slideshow Applications
 
-This code base is taken from the ['slideshow' tool](https://github.com/rse/slideshow). Architecture and the credit goes to the original author. I  did some updates regarding the support for  Microsoft PowerPoint for office 365. Also removed cli and keynote support to reduce unneccesary the weight of the module. See the original for lots of details
+This code base is taken from the ['slideshow' tool](https://github.com/rse/slideshow). Architecture and the concept credit goes to the original author. I did some updates regarding the support for  Microsoft PowerPoint 365. Also removed cli and keynote support to reduce unneccesary the weight of the module. See the original for lots of details
 
 This Source Code Form is subject to the terms of the Mozilla Public
 License (MPL), version 2.0. If a copy of the MPL was not distributed
